@@ -1,11 +1,26 @@
 package com.example.springbootrabbitmqexample.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@Data
+@ToString
+
 public class OrderStatus {
     
     private Order order;
     private String status;  // progress, completed
     private String message;
 
+    /*
     public OrderStatus() {
         this.order = null;
         this.status = "";
@@ -38,4 +53,5 @@ public class OrderStatus {
     public String getMessage() {
         return this.message;
     }
+    */
 }

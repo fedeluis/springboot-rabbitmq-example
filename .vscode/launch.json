@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootRabbitmqExampleApplication<springboot-rabbitmq-example>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.springbootrabbitmqexample.SpringbootRabbitmqExampleApplication",
+            "projectName": "springboot-rabbitmq-example",
+            "args": ""
+        }
+    ]
+}
